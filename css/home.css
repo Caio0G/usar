@@ -1,0 +1,50 @@
+h1{margin-left: 120px;
+}
+
+#logo{float: left;
+margin-top: -60px;}
+
+#nave{margin: 80px;
+     background-color: green;
+}
+
+#nave ul{
+     list-style-type: none;
+     max-width: 800px;
+     padding: 0;
+}
+
+#nave ul li{
+     display: inline;
+}
+
+#nave ul li a{
+     color: black;
+     padding: 20px;
+     display: inline-block;
+     text-decoration: none;
+}
+
+#nave ul li a:hover{
+     background-color: orange;
+}
+
+#login{
+     float: right;
+     margin-right: -300px;
+}
+
+main{
+     background-color: antiquewhite;
+     color:black
+}
+
+#post{float: right;
+margin-top: -800px;
+margin-right: 150px;}
+
+footer{
+     margin-top: 100px;
+     background-color: greenyellow;
+     color: black;
+}

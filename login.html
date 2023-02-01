@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="shortcut icon" href="imagens/domino1.jpg" type="image/x-icon">
+  <link rel="stylesheet" href="css/login.css">
+
+
+  <title>Login</title>
+</head>
+
+<body>
+  <nav class="navegacao">
+
+
+    <div class="navegacao-logo">
+      <h1 class="texto-logo">Pizzaria Damas</h1>
+    </div>
+
+
+    <div class="navegacao-menu">
+      <ul class="navegacao-lista">
+        <li><a href="home.html" class="navegacao-links">Home</a></li>
+        <li><a href="produtos.html" class="navegacao-links">Cardápio</a></li>
+        <li><a href="formulario.html" class="navegacao-links">Fale Conosco</a></li>
+        <li><a href="#" class="navegacao-links">Pedidos</a></li>
+        <li><a href="#" class="navegacao-links">Pagamento</a></li>
+
+      </ul>
+
+    </div>
+
+
+
+  </nav>
+
+  <section id="login">
+
+
+    <div class="formulario">
+      <div class="titulo">
+        <h2>Login:</h2>
+      </div>
+
+      <form id="form" class="form">
+        <div class="form-control">
+          <label for="username">Usuário:</label>
+          <input type="text" id="name" placeholder="Usuário" /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
+          <div class="mensagem"></div>
+        </div>
+
+        <div class="form-control">
+          <label for="tell">E-mail:</label>
+          <input type="text" id="email" placeholder="E-mail" /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
+          <div class="mensagem"></div>
+        </div>
+
+        <div class="form-control">
+          <label for="pedido">Senha:</label>
+          <input type="text" id="senha" placeholder="Senha" /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
+          <div class="mensagem"></div>
+        </div>
+        <button id="btn" type="submit">Enviar</button> <!--  BOTAO PARA CONFIRMA AS INFORMAÇÕES-->
+      </form>
+    </div>
+  </section>
+     <section id="adm">
+    <div class="formulario">
+        <div class="titulo">
+          <h2>Login de administrador:</h2>
+        </div>
+  
+          <form id="form" class="form">
+          <div class="form-control">
+            <label for="tell">E-mail:</label>
+            <input type="text" id="email" placeholder="E-mail" /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
+            <div class="mensagem"></div>
+          </div>
+  
+          <div class="form-control">
+            <label for="pedido">Senha:</label>
+            <input type="text" id="senha" placeholder="Senha" /> <!-- PLACE HOLDER ESCREVER DENTRO DA CAIXA-->
+            <div class="mensagem"></div>
+          </div>
+          <button id="btn" type="submit">Enviar</button> <!--  BOTAO PARA CONFIRMA AS INFORMAÇÕES-->
+        </form>
+      </div>
+    </section>
+
+  <footer class="rodape">
+
+    <div class="rodape-principal">
+      <div class="horario-atendimento">
+        <h3 class="footer-titulo">Atendimento</h3>
+        <p>Horário de atendimento: Segunda a
+          <br>
+          sexta, das 8 às 17h
+        </p>
+
+      </div>
+
+      <div class="nossas-midias">
+        <h3>Nossas mídias</h3>
+        <a href="https://pt-br.facebook.com/"><img src="imagens/facebook (1).svg" alt="icone do facebook" class="icone-midias"> </a>
+        <a href="https://www.instagram.com/"><img src="imagens/instagram (1).svg" alt="icone do instagram" class="icone-midias"></a>
+        <a href="https://web.whatsapp.com/"><img src="imagens/whatsapp.svg" alt="icone do whatsapp" class="icone-midias"></a>
+      </div>
+    </div>
+
+    <div class="cartoes">
+      <img src="imagens/cc-mastercard.svg" alt="icone do cartao mastercard" class="icone-midias">
+      <img src="imagens/cc-visa.svg" alt="icone do cartao visa" class="icone-midias">
+      <img src="imagens/pix.svg" alt="icone do pix" class="icone-midias">
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>
